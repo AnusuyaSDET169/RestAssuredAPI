@@ -1,0 +1,1 @@
+Failure in scenario: phoneNumber as duplicate | Expected status code: 409 but got: 404 | Error Status: 404

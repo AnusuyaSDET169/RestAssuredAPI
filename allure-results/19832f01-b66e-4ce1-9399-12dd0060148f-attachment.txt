@@ -1,0 +1,1 @@
+Failure in scenario: phoneNumber as less than 10 | Expected status code: 400 but got: 404 | Error Status: 404
