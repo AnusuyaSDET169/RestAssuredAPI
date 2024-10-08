@@ -1,0 +1,1 @@
+Failure in scenario: valid all | Expected status code: 201 but got: 404 | Error Status: 404

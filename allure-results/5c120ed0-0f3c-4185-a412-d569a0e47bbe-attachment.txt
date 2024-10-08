@@ -1,0 +1,1 @@
+Failure in scenario: contentType | Expected status code: 415 but got: 404 | Error Status: 404

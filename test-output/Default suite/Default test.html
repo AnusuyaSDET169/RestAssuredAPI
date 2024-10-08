@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 25 10:13:30 CDT 2024</td>
+<td>Started on:</td><td>Mon Sep 30 12:27:44 CDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10490 ms)</td>
+<tr><td>Total time:</td><td>16 seconds (16002 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,27 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.then()&quot; because &quot;this.response&quot; is null
-	at stepdefinition.getAllUsers.the_response_status_code_should_be(getAllUsers.java:72)
-	at ✽.the response status code should be 200(file:///Users/anusuyaselvaraj/codebase/RestAPINInja/src/test/resources/features/useroperations.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1178861747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1178861747'><pre>java.lang.NullPointerException: Cannot invoke &quot;io.restassured.response.Response.then()&quot; because &quot;this.response&quot; is null
-	at stepdefinition.getAllUsers.the_response_status_code_should_be(getAllUsers.java:72)
-	at ✽.the response status code should be 200(file:///Users/anusuyaselvaraj/codebase/RestAPINInja/src/test/resources/features/useroperations.feature:13)
-</pre></div></td>
-<td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -97,40 +76,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get User by First Name", "All CRUD operation in one"</td>
 <td></td>
 <td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
+<td>runner.testrunner@5023bb8b</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get User by ID", "All CRUD operation in one"</td>
 <td></td>
 <td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
+<td>runner.testrunner@5023bb8b</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users", "All CRUD operation in one"</td>
 <td></td>
-<td>4</td>
-<td>runner.testrunner@169bb4dd</td></tr>
+<td>6</td>
+<td>runner.testrunner@5023bb8b</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete User by ID", "All CRUD operation in one"</td>
 <td></td>
-<td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
+<td>2</td>
+<td>runner.testrunner@5023bb8b</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create User", "All CRUD operation in one"</td>
 <td></td>
-<td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
+<td>3</td>
+<td>runner.testrunner@5023bb8b</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
-<td></td>
-<td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
-<tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get All Users scenario", "Verify to Get All users"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update User by ID", "All CRUD operation in one"</td>
 <td></td>
 <td>0</td>
-<td>runner.testrunner@169bb4dd</td></tr>
+<td>runner.testrunner@5023bb8b</td></tr>
 </table><p>
 </body>
 </html>

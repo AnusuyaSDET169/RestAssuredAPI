@@ -1,0 +1,1 @@
+Failure in scenario: state as number | Expected status code: 400 but got: 404 | Error Status: 404
